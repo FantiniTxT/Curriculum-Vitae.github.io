@@ -58,6 +58,17 @@ a {
     color: rgb(63, 62, 62);
 }
 
+.container {
+    display: flex;
+}
+#habilidades1 {
+    padding-right: 30px;
+    border-right: solid 1px;
+}
+#habilidades2 {
+    padding-left: 10px;
+}
+
 nav {
     position: fixed;
     width: 100%;
@@ -93,7 +104,7 @@ footer > ul > li > a {
 
 @media screen and (max-width: 640px) {
     nav {
-        height: 170px;
+        height: 150px;
     }
     nav > ul {
         display: flex;
@@ -104,6 +115,17 @@ footer > ul > li > a {
         margin-left: 0px;
     }
     header {
-        padding-top: 180px;
+        padding-top: 170px;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+    #habilidades1 {
+        padding-right: 0px;
+        border-right: none;
+    }
+    #habilidades2 {
+        padding-left: 0px;
     }
 }    
