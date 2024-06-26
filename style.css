@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+}
+body {
+    background-color: white;
+}
+
+header {
+    padding: 40px 50px;
+    background-color: rgb(5, 5, 49);
+    color: white;
+}
+img {
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    margin-left: 20px;
+    padding: 10px 0;
+}
+.apresentacao {
+    font-size: 20px;
+}
+header p > a {
+    color: white;
+}
+
+main {
+    padding-left: 70px;
+}
+section {
+    padding: 20px 0;
+}
+section > div {
+    padding-top: 10px;
+}
+
+h1, h2, h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 3px 0;
+    margin-left: 20px;
+}
+p, li {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 0;
+    margin-left: 20px;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+.periodo {
+    font-size: 15px;
+    color: rgb(107, 105, 105);
+    padding: 1px 0;
+}
+.local {
+    font-size: 15px;
+    color: rgb(63, 62, 62);
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    height: 30px;
+    background-color: rgb(206, 224, 218);
+}
+nav > ul {
+    display: flex;                                                                                                                                                                                                                                                                                                                      
+    flex-direction: row;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 0;
+}
+
+footer {
+    background-color: rgb(5, 5, 49);
+    color: white;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+footer > ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+footer > ul > li > a {
+    color: white;
+}
+
+@media screen and (max-width: 640px) {
+    nav {
+        height: 170px;
+    }
+    nav > ul {
+        display: flex;
+        flex-direction: column;
+        padding-left: 20px;
+    }
+    nav > ul > li {
+        margin-left: 0px;
+    }
+    header {
+        padding-top: 180px;
+    }
+}    
